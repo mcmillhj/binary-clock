@@ -26,7 +26,7 @@ sub get_time {
 sub draw {
     my $time = get_time();
 
-    foreach my $i ( 20, 21, 22, 23 ) {
+    foreach my $i ( 23, 22, 21, 20 ) {
         my $j = $i;
         while ( $j >= 0 ) {
             (($time >> $j) & 1) == 1
